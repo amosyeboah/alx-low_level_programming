@@ -1,17 +1,11 @@
 #include <stdio.h>
-
 /**
  * main - Prints the numbers from 0-9.
- *
- * Return (0) on Successs.
+(*
+ * Return: 0 on success
  */
-  int main(void)
+int main(void)
 {
-	int i;
-
-	for (i = 0; i < 10; i++)
-	{
-		printf("%d", i, "\n");
-	}
+	printf("0123456789\n");
 	return (0);
 }
