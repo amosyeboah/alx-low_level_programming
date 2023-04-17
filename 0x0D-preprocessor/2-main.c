@@ -9,12 +9,7 @@
 
 int main(void)
 {
-	const char* filename = __FILE__;
-	while (*filename) {
-	_putchar(*filename);
-	++filename;
-	}
- 	_putchar('\n');
+	printf("%s\n", __FILE__); 
 	return (0);
 }
 
