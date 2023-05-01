@@ -1,4 +1,2 @@
-####ZZ#!/bin/bash
-#yytiuyiuyiuiuiu
-#uguyuyuuyiuyuuuiiuu
-#gcc -E $CFILE -o c#
+#!/bin/bash
+gcc -E -o c $CFILE
