@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 
 /**
  *binary_to_uint - A function that converts a binary number to unsigned int
