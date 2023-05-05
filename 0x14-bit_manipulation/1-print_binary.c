@@ -9,27 +9,27 @@
  *Return: Resuult
  */
 
- void print_binary(unsigned long int n)
+void print_binary(unsigned long int n)
 {
-        int i;
-        int a;
-        unsigned int num;
+	int i;
+	int a;
+	unsigned int num;
 
-        for (i = 31; i > 0; i--)
-        {
-                num = n >> i;
+	for (i = 31; i > 0; i--)
+	{
+		num = n >> i;
 
-                if (num & 1)
-                {
-                        putchar('1');
-                        a++;
-                }
-                else if (a)
-                {
-                        putchar('0');
-                }
-        }
+		if (num & 1)
+		{
+			putchar('1');
+			a++;
+		}
+		else if (a)
+		{
+			_putchar('0');
+		}
+	}
 
-        if (!a)
-                putchar('0');
+	if (!a)
+	_putchar('0');
 }
